@@ -191,7 +191,7 @@ def solve_tier(min_free_gb, budget_gb, disk_free_gb, opt8bit,
     if total >= 4e9:
         bd, mb, ps = 32, 2048, 24
     elif total >= 4e8:
-        bd, mb, ps = 16, 2048, 16
+        bd, mb, ps = 16, 2048, 8
     elif total >= 1e8:
         bd, mb, ps = 16, 1024, 14
     elif total >= 2e7:
